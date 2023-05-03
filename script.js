@@ -58,9 +58,10 @@ const password_generate=()=>{
     all_char +=lower_case.checked ? lower_case_char : "";
     all_char +=special_symbols.checked ? special_symbols_get : "";
     all_char +=numbers.checked ? all_numbers : "";
-
-
-    for(i=1 ; input_slider.value>=i ; i++){
+     
+    let i;
+    
+    for(i= 1 ; input_slider.value>=i ; i++){
         input_field.value+=all_char.charAt(Math.floor(Math.random() * all_char.length));
        
     }
