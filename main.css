@@ -27,4 +27,11 @@ div label{
 
 .option{
     display: flex;
-}    
+}
+
+@media (max-width:320px){
+    .password-sub-container{
+      width: 19rem;
+    } 
+
+}
