@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    
+    <link rel="shortcut icon" href="/assets/IVpX5Z-97f2d5ca.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <script type="module" crossorigin src="/assets/index-64b8c075.js"></script>
+  <link rel="stylesheet" href="/assets/index-5c76ba69.css">
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <div class="password-container p-0 m-0 box-border min-w-full min-h-screen bg-gradient-to-br from-yellow-400 via-cyan-500 to-pink-400 flex justify-center items-center flex-col select-none">
+
+          <div class="password-sub-container w-80 h-[24.5rem] border-[1px] bg-white bg-opacity-30 rounded-md">
+            
+            <h1 class="text-center  mt-3 mb-2 text-2xl font-bold text-gray-700">Password Generator</h1>
+
+            <div class="header flex flex-col justify-center items-center">
+
+              <span class="relative">
+                <input data-input-field class="input -field w-72 h-10 rounded-md font-mono p-1 outline-none text-[1.1rem] " type="text" placeholder="Password" readonly>
+                <span data-copy-icon class="text-cyan-700 absolute top-[17%] right-1 bg-white cursor-pointer"><i class="pr-1 pl-4  fa-solid fa-copy fa-lg"></i></span>
+              </span>
+
+              <input data-input-slider class=" input-slider appearance-none bg-gradient-to-r from-purple-700 to-teal-800 rounded-xl h-2 mt-3 mb-3 w-56 " type="range" min="8" max="30" value="12">
+
+              <div class="flex">
+                <p class="font-bold  text-[1.2rem] text-white  mr-24">Password Length :</p>
+                <span data-password-length class="password-length border-2 rounded-full bg-white w-8 h-8 text-center text-green-500 font-medium"></span>
+              </div>
+
+            </div>
+
+            <div class="main flex flex-col text-lg leading-10 ml-3">
+
+              <div class="option">
+                <label for="lower-ccase">Include Lower-Case (a-z)</label>
+                <input data-lower-case class="w-4" type="checkbox" name="lower-case" checked>
+              </div>
+             
+              <div class="option">
+                <label for="upper-case">Include Upper-Case (A-Z)</label>
+                <input data-upper-case class="w-4 " type="checkbox" name="upper-case">
+              </div>
+
+              <div class="option">
+                <label for="numbers">Include Numbera (0-9)</label>
+                <input data-numbers class="w-4" type="checkbox" name="numbers">
+              </div>
+
+              <div class="option">
+                 <label for="special-symbols">Include Special-Symbols (@%&)</label>
+                <input data-special-symbols class="w-4" type="checkbox" name="special-symbols" checked >
+              </div>
+
+              <div class="button text-center">
+                <button data-generate-button class=" generate-button mt-3 border-2 p-1 pr-3 pl-3 rounded-2xl hover:scale-110 duration-300 font-semibold text-white bg-slate-800 hover:bg-white hover:text-slate-800">
+                  Generate Password
+                </button>
+              </div>
+
+            </div>  
+
+          </div>
+
+        </div>
+    </div>
+    
+</body>
+</html>
