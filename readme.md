@@ -6,6 +6,10 @@
 
 A password manager with a clean and user-friendly interface. This web app allows users to generate random passwords with various options such as including numbers, uppercase letters, lowercase letters, and special symbols.
 
+## 🌐 Project Demo 
+
+To see a live demo of the project, please visit : https://yashmishra-password-generator.netlify.app/
+
 ## 🛠️ Technologies Used
 
 - HTML
