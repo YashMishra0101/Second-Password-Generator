@@ -1,8 +1,7 @@
 # 🔑 Password Generator
 
-
-<img src="./images/Screenshot (285).png">
-<img src="./images/Screenshot (286).png">
+![Screenshot](./images/Screenshot%20(285).png)
+![Screenshot](./images/Screenshot%20(286).png)
 
 A password manager with a clean and user-friendly interface. This web app allows users to generate random passwords with various options such as including numbers, uppercase letters, lowercase letters, and special symbols.
 

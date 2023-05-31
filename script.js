@@ -71,3 +71,57 @@ const password_generate=()=>{
 }
 
 
+
+/* const password_generate = () => {
+    const upper_case_char = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    const lower_case_char = "abcdefghijklmnopqrstuvwxyz";
+    const special_symbols_get = "!#$%&'()*+,-./:;<=>?@[\\]^_`{|}~";
+    let all_numbers = "0123456789";
+  
+    let char_sets = [];
+  
+    if (upper_case.checked) {
+      char_sets.push(upper_case_char);
+    }
+  
+    if (lower_case.checked) {
+      char_sets.push(lower_case_char);
+    }
+  
+    if (special_symbols.checked) {
+      char_sets.push(special_symbols_get);
+    }
+  
+    if (numbers.checked) {
+      char_sets.push(all_numbers);
+    }
+  
+    let password = "";
+  
+    // Make sure we have at least one character from each selected character set
+    char_sets.forEach((charSet) => {
+      password += charSet.charAt(Math.floor(Math.random() * charSet.length));
+    });
+  
+    // Generate the remaining characters for the password
+    for (let i = char_sets.length + 1; input_slider.value >= i; i++) {
+      let charSetIndex = Math.floor(Math.random() * char_sets.length);
+      password += char_sets[charSetIndex].charAt(Math.floor(Math.random() * char_sets[charSetIndex].length));
+    }
+  
+    // Shuffle the characters in the password to add some randomness
+    password = password.split("").sort(() => Math.random() - 0.5).join("");
+  
+    return password;
+  }
+
+  This implementation creates an array called char_sets that contains an array of characters for each selected character set. It then ensures that the generated password includes at least one character from each set, and generates the remaining characters randomly from the selected sets.
+
+ It also shuffles the characters in the password to add some randomness.
+
+ I hope this helps!
+
+*/
+  
+
+
